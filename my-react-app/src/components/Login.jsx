@@ -36,7 +36,6 @@ export default function Login({ onLogin, onSwitchToRegister }) {
   };
 
   return (
-    <div className='bodyclass'>
     <div className="login-container">
       <div className="login-card">
         <h2>Login</h2>
@@ -82,7 +81,7 @@ export default function Login({ onLogin, onSwitchToRegister }) {
         </form>
 
         <div className="auth-switch">
-          <p>Don't have an account? 
+          <p className='regP'>Don't have an account? 
             <button 
               type="button" 
               className="switch-button"
@@ -94,6 +93,5 @@ export default function Login({ onLogin, onSwitchToRegister }) {
         </div>
       </div>
     </div>
-  </div>
   );
 }
